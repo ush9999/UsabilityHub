@@ -1,0 +1,172 @@
+
+
+
+
+
+/*nav bar*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding-top: 0px ;
+    box-sizing: border-box;
+}
+
+
+
+.nav_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.logo {
+    width: 20%;
+    padding: 10px;
+}
+
+.nav_links {
+    width: 80%;
+    text-align: right;
+}
+
+.navbar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar nav ul li {
+    margin-left: 20px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 15px 10px;
+    display: block;
+}
+
+
+
+
+
+
+
+.navbar nav ul li .btn_signup {
+    background-color: #007bff;
+    color: white;
+    padding: 15px ;
+    border-radius: 5px;
+    margin-right: 20px;
+
+}
+
+
+.navbar nav ul li .btn_signin{
+background-color: #fdfdfd;
+color: rgb(0, 0, 0);
+padding: 15px ;
+border-radius: 5px;
+margin-right: 20px;
+border: 1px solid;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hero */
+
+
+.hero {
+    padding: 150px 0;
+
+    margin-top: 0px;
+}
+
+.hero-content {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.hero-text {
+    max-width: 600px;
+    text-align: left;
+    margin-left: 23px;
+}
+
+.hero-image {
+    width: 500px;
+    
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666666;
+}
+
+.hero .btn {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.bottom_ {
+    text-align: center;
+    padding: 0px 0;
+    background-color: #ffffff;
+    margin-bottom: 200px;
+}
+
+.bottom_ p {
+    margin-bottom: 30px;
+    color: #000000;
+    font-size: 16px;
+}
+
+
+
+.bottom_ .logos img {
+
+    width: 80px;
+    margin-left: 70px;
+  
+}
+
+
+
+
